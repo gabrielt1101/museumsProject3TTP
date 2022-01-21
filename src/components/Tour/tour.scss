@@ -8,10 +8,11 @@
     text-shadow: 4px 4px 5px red;
     img {
         width: 100%;
-        display: block;
+        display: flex;
         min-height: 13rem;
         border: 2px solid black;
     }
+
 }
 
 @media screen and (min-width: 768px) {
