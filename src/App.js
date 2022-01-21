@@ -5,6 +5,7 @@ import "./App.scss";
 import Navbar from "./components/Navbar/Navbar";
 import TourList from "./components/TourList/tours";
 import Home from "./components/Home/home";
+import About from "./components/About/about"
 
 
 
@@ -18,7 +19,7 @@ class App extends Component {
           <Route>
             <Route path="/Home" element={<Home />} />
             <Route path="/tours" element ={<TourList />}/>
-            
+            <Route path="/about" element ={<About />}/>
             
           </Route>
         </Routes>
