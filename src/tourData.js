@@ -5,7 +5,19 @@ export const tourData = [
         img: "./img/nytransit_img.jpg",
         name: "Brooklyn, NY",
         info: 
-        "The New York Transit Museum is a museum that displays historical artifacts of the New York City Subway, bus, and commuter rail systems in the greater New York City metropolitan region. " 
+        "The New York Transit Museum is a museum that displays historical artifacts of the New York City Subway, bus, and commuter rail systems in the greater New York City metropolitan region. ",
+        train2color: "sub_icon _2",
+        train2: "2",
+        train4color: "sub_icon _4",
+        train4: "4",
+        trainCcolor: "sub_icon _C",
+        trainC: "C",
+        trainFcolor: "sub_icon _F",
+        trainF: "F",
+        trainGcolor: "sub_icon _G",
+        trainG: "G",
+        trainRcolor: "sub_iconY _R",
+        trainR: "R" 
     },
     {
         id: 2,
@@ -13,8 +25,15 @@ export const tourData = [
         img: "./img/moma_img.jpg",
         name: "New York, NY",
         info: 
-        "The Museum of Modern Art (MoMA) is an art museum located in Midtown Manhattan, New York City, on 53rd Street between Fifth and Sixth Avenues. It plays a major role in developing and collecting modern art, and is often identified as one of the largest and most influential museums of modern art in the world. " 
-        
+        "The Museum of Modern Art (MoMA) is an art museum located in Midtown Manhattan, New York City, on 53rd Street between Fifth and Sixth Avenues. It plays a major role in developing and collecting modern art, and is often identified as one of the largest and most influential museums of modern art in the world. Definitely worth visiting and going with others.",
+        trainDcolor: "sub_icon _D",
+        trainD: "D",
+        trainEcolor: "sub_icon _E",
+        trainE: "E",
+        trainMcolor: "sub_icon _M",
+        trainM: "M",
+        trainQcolor: "sub_iconY _Q",
+        trainQ: "Q"
     },
     {
         id: 3,
@@ -22,7 +41,21 @@ export const tourData = [
         img: "./img/intrepid_sea_air_space_img.jpg",
         name: "Manhattan, NY",
         info: 
-        "The Intrepid Sea, Air & Space Museum is an American military and maritime history museum in New York City with a collection of museum ships. It is located at Pier 86 at 46th Street, along the Hudson River, in the Hell's Kitchen neighborhood on the West Side of Manhattan" 
+        "The Intrepid Sea, Air & Space Museum is an American military and maritime history museum in New York City with a collection of museum ships. It is located at Pier 86 at 46th Street, along the Hudson River, in the Hell's Kitchen neighborhood on the West Side of Manhattan",
+        train1color: "sub_icon _1",
+        train1: "1",
+        train2color: "sub_icon _2",
+        train2: "2",
+        trainAcolor: "sub_icon _A",
+        trainA: "A",
+        trainCcolor: "sub_icon _C",
+        trainC: "C",
+        trainEcolor: "sub_icon _E",
+        trainE: "E",
+        trainNcolor: "sub_iconY _N",
+        trainN: "N",
+        trainRcolor: "sub_iconY _R",
+        trainR: "R" 
     },
     {
         id: 4,
@@ -30,7 +63,21 @@ export const tourData = [
         img: "./img/spyscape_img.jpg",
         name: "New York, NY",
         info: 
-        "Spyscape is a private, for-profit espionage museum and experience in Midtown Manhattan, New York City. It opened in February 2018 to a positive reception from local and international media. It features seven main experience zones, as well as a James Bond exhibition, 007xSpyscape." 
+        "Spyscape is a private, for-profit espionage museum and experience in Midtown Manhattan, New York City. It opened in February 2018 to a positive reception from local and international media. It features seven main experience zones, as well as a James Bond exhibition, 007xSpyscape.",
+        train1color: "sub_icon _1",
+        train1: "1",
+        trainAcolor: "sub_icon _A",
+        trainA: "A",
+        trainDcolor: "sub_icon _D",
+        trainD: "D",
+        trainEcolor: "sub_icon _E",
+        trainE: "E",
+        trainNcolor: "sub_iconY _N",
+        trainN: "N",
+        trainQcolor: "sub_iconY _Q",
+        trainQ: "Q",
+        trainRcolor: "sub_iconY _R",
+        trainR: "R" 
     },
     {
         id: 5,
@@ -38,7 +85,15 @@ export const tourData = [
         img: "./img/museum_illusions_img.jpg",
         name: "New York, NY",
         info: 
-        "Exhibits to deceive the eye including kaleidoscopes & holograms, plus tilted & reverse rooms.." 
+        "Exhibits to deceive the eye including kaleidoscopes & holograms, plus tilted & reverse rooms..",
+        trainAcolor: "sub_icon _A",
+        trainA: "A",
+        trainCcolor: "sub_icon _C",
+        trainC: "C",
+        trainEcolor: "sub_icon _E",
+        trainE: "E",
+        trainLcolor: "sub_icon _L",
+        trainL: "L"  
     },
     {
         id: 6,
@@ -46,6 +101,12 @@ export const tourData = [
         img: "./img/ice_cream_img.jpg",
         name: "New York, NY",
         info: 
-        "Taste, play, dance, connect, imagine, slide and swim as you explore our world famous 13 multi-sensory installations over 3 floors and 20,000 square feet! Our unforgettable #TeamMOIC guides will entertain and delight as you journey through MOIC, serving up as many sweet treats as you want along the way in our special NYC experience!" 
+        "Taste, play, dance, connect, imagine, slide and swim as you explore our world famous 13 multi-sensory installations over 3 floors and 20,000 square feet! Our unforgettable #TeamMOIC guides will entertain and delight as you journey through MOIC, serving up as many sweet treats as you want along the way in our special NYC experience!",
+        trainNcolor: "sub_iconY _N",
+        trainN: "N",
+        trainQcolor: "sub_iconY _Q",
+        trainQ: "Q",
+        trainRcolor: "sub_iconY _R",
+        trainR: "R" 
     },
 ];
