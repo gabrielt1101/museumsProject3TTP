@@ -2,13 +2,15 @@ import React from "react";
 import logooo from "../../logooo.svg";
 import "./navbar.scss"
 
+import Home from "../Home/home"
+
 export default function Navbar() {
     return (
         <nav className="navbar">
             <img src={logooo} alt="city tours company" />
             <ul className="nav-links">
                 <li>
-                    <a href="../../home.html" className="nav-link">
+                    <a href="/home" className="nav-link">
                         home
                     </a>
                 </li>
