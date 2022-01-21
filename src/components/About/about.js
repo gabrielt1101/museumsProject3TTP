@@ -18,6 +18,7 @@ const About = () => {
     <div classname="video-overlay">
       <div classname="container">
         <div classname="input-container" id="input-container">
+          <div className="style">
           <h1>About</h1>
           <br />
           <h2>
@@ -29,6 +30,7 @@ const About = () => {
           </h2>
           <br />
           <h3>So what are you waiting for? Go to a museum today!</h3>
+          </div>
         </div>
       </div>
     </div>
