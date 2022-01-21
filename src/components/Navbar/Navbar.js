@@ -1,28 +1,24 @@
 import React from "react";
-import logooo from "../../logooo.svg";
-import "./navbar.scss"
-
-export default function Navbar() {
-    return (
-        <nav className="navbar">
-            <img src={logooo} alt="city tours company" />
+import "./navbar.scss";
+import { Link } from "react-router-dom";
+const Navbar = () => {
+  return (
+      <div className="navbar">
+        <nav>
             <ul className="nav-links">
-                <li>
-                    <a href="/" className="nav-link">
-                        home
-                    </a>
-                </li>
-                <li>
-                    <a href="/" className="nav-link">
-                        about
-                    </a>
-                </li>
-                <li>
-                    <a href="/" className="nav-link active">
-                        tours
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    );
-}
+                <li className="nav-link"><Link to="/home">
+                    Home
+                </Link></li>
+                <li className="nav-link"><Link to="/about">
+                    About
+                </Link></li>
+                <li className="nav-link"><Link to="/tourList">
+                    Tour List
+                </Link></li>
+          </ul>
+      </nav>
+      </div>
+  );
+};
+
+export default Navbar;
