@@ -8,7 +8,7 @@ export default function Navbar() {
             <img src={logooo} alt="city tours company" />
             <ul className="nav-links">
                 <li>
-                    <a href="/" className="nav-link">
+                    <a href="../../home.html" className="nav-link">
                         home
                     </a>
                 </li>
