@@ -1,12 +1,16 @@
 @import "../../index.scss";
 
 .tour {
-    background: $mainGrey;
+    background: #d1d1e0;
     margin: 2rem 0;
+    border: 3px solid black;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px red;
     img {
         width: 100%;
         display: block;
         min-height: 13rem;
+        border: 3px solid black;
     }
 }
 
@@ -27,8 +31,8 @@
     display: block;
     top: 5%;
     right: 5%;
-    color: $mainGreen;
-    font-size: 2rem;
+    color: $mainBlack;
+    font-size: 1.5rem;
     cursor: pointer;
     transition: $mainTransition;
     opacity: 0;
@@ -39,7 +43,7 @@
 }
 
 .tour-info {
-    padding: 1rem .5rem;
+    padding: 3rem 1rem;
     h3 {
         text-transform: capitalize;
         margin: .2rem 0 0.6rem 0;
@@ -47,7 +51,7 @@
     h5 {
         text-transform: capitalize;
         span {
-            color: $mainGreen;
+            color: $mainBlack;
             margin: .5rem;
             font-size: 1.2rem;
             cursor: pointer;
