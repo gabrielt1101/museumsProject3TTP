@@ -1,8 +1,13 @@
+import "./navbar.scss"
 import React from "react";
 import logooo from "../../logooo.svg";
 import "./navbar.scss"
+import  {BrowserRouter,Route,Routes} from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
 import Home from "../Home/home"
+import TourList from "../TourList/tours"
 
 export default function Navbar() {
     return (
@@ -10,9 +15,9 @@ export default function Navbar() {
             <img src={logooo} alt="city tours company" />
             <ul className="nav-links">
                 <li>
-                    <a href="/home" className="nav-link">
+                    <Link to="/home" className="nav-link">
                         home
-                    </a>
+                    </Link>    
                 </li>
                 <li>
                     <a href="/" className="nav-link">
@@ -20,9 +25,9 @@ export default function Navbar() {
                     </a>
                 </li>
                 <li>
-                    <a href="/" className="nav-link active">
+                    <Link to="/tours" className="nav-link active">
                         tours
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </nav>

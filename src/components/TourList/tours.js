@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Tour from "../Tour";
+import Tour from "../Tour/Tour";
 import "./tourlist.scss";
 import { tourData } from "../../tourData";
 

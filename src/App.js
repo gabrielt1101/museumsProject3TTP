@@ -1,29 +1,30 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route , Link} from "react-router-dom";
 import "./App.scss";
 
 import Navbar from "./components/Navbar/Navbar";
-import TourList from "./components/TourList";
+import TourList from "./components/TourList/tours";
 import Home from "./components/Home/home";
+
+
 
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
-        <Navbar />
+      <Router>
+        <Navbar/>
         
-        <TourList />
-        <Router>
-          <Routes>
-            <Route path="/home" element={<Home />}></Route>
-          </Routes>
-        </Router>
-      </React.Fragment>
-
-    
+        <Routes>
+          <Route>
+            <Route path="/Home" element={<Home />} />
+            <Route path="/tours" element ={<TourList />}/>
+            
+            
+          </Route>
+        </Routes>
+      </Router>
     );
   }
-
 }
 
 
