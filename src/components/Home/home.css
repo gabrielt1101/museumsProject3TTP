@@ -1,0 +1,19 @@
+
+.head{
+    padding-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    background-color: darkorange;
+}
+
+.img {
+    display: block;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
