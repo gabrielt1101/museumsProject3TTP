@@ -1,10 +1,6 @@
-<<<<<<< HEAD:src/components/TourList/index.js
 import React, { useState, Component } from "react";
 import Tour from "../Tour";
-=======
-import React, { Component } from "react";
-import Tour from "../Tour/Tour";
->>>>>>> Homepg-Asia:src/components/TourList/tours.js
+
 import "./tourlist.scss";
 import { tourData } from "../../tourData";
 import "./carousel.scss";
