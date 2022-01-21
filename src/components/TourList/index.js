@@ -4,7 +4,6 @@ import "./tourlist.scss";
 import { tourData } from "../../tourData";
 
 
- 
 export default class TourList extends Component {
     
     state = {
@@ -25,9 +24,13 @@ export default class TourList extends Component {
 
     // VINCE WAS HERE
 
-
     clickMe = () => {
+
         this.setState({ clsName: "popUpClose" });
+    }
+
+    openMe = () => {
+        this.setState({ clsName: "popUp" });
     }
 
     // VINCE IS NOT HERE
@@ -41,7 +44,6 @@ export default class TourList extends Component {
 
             
             <section className="tourlist">
-               
 
                 <div className={this.state.clsName} id = "pop">
                     <span class="close" onClick={this.clickMe}>&times;</span>
@@ -67,4 +69,6 @@ export default class TourList extends Component {
             </section>
         );
     }
+
 }
+

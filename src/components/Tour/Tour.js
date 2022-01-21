@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "./tour.scss";
+// import { openMe } from "../TourList/index"
 
 export default class Tour extends Component {
     state = {
-        showInfo: false
+        showInfo: false,
     };
     handleInfo = () => {
         this.setState({
@@ -13,12 +14,12 @@ export default class Tour extends Component {
 
     render() {
         const { id, city, img, name, info } = this.props.tour;
-        const { removeTour } = this.props;
+        const { removeTour, openMe } = this.props;
 
         return (
             <article className="tour">
-                <div className="img-container">
-                    <img src={img} alt="city tour" />
+                <div className="img-container" >
+                    <img src={img}  alt="city tour" />
                     <span className="close-btn" onClick={() => removeTour(id)}>
                         <i className="fas fa-window-close" />
                     </span>
@@ -33,6 +34,7 @@ export default class Tour extends Component {
                         </span>
                     </h5>
                     {this.state.showInfo && <p>{info}</p>}
+                    <span class="close" onClick={() => openMe() }>&times;</span>
                 </div>
             </article>
         );
