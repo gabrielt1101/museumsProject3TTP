@@ -10,6 +10,7 @@ export default class Tour extends Component {
             showInfo: !this.state.showInfo
         });
     };
+
     render() {
         const { id, city, img, name, info } = this.props.tour;
         const { removeTour } = this.props;
