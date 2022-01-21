@@ -5,9 +5,9 @@ import "./tourlist.scss";
 import { tourData } from "../../tourData";
 import "./carousel.scss";
 import img1 from "../TourList/images/1.jpg"
-import img2 from "../TourList/images/2.jpeg"
-import img3 from "../TourList/images/3.jpeg"
-import img4 from "../TourList/images/4.jpeg"
+import img2 from "../TourList/images/2.jpg"
+import img3 from "../TourList/images/3.jpg"
+import img4 from "../TourList/images/4.jpg"
 import img5 from "../TourList/images/5.jpg"
 import img6 from "../TourList/images/6.jpg"
 
