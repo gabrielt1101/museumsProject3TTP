@@ -3,11 +3,13 @@
 .tour {
     background: $mainGrey;
     margin: 2rem 0;
+
     img {
         width: 100%;
-        display: block;
+        display: flex;
         min-height: 13rem;
     }
+
 }
 
 @media screen and (min-width: 768px) {
