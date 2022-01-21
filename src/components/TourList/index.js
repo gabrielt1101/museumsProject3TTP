@@ -9,7 +9,7 @@ export default class TourList extends Component {
     state = {
         tours: tourData,
         display: false,
-        clsName: "popUp"
+        clsName: "popUpClose"
     };
 
 
@@ -27,11 +27,12 @@ export default class TourList extends Component {
     clickMe = () => {
 
         this.setState({ clsName: "popUpClose" });
+
     }
 
-    openMe = () => {
+    changeMe = () => {
         this.setState({ clsName: "popUp" });
-    }
+    };
 
     // VINCE IS NOT HERE
 
@@ -50,7 +51,7 @@ export default class TourList extends Component {
                     <div className="gallery">
 
                         <div className="popUp-content" >
-
+                
                             Hello World
 
 
@@ -61,7 +62,11 @@ export default class TourList extends Component {
                 </div>
 
                 {tours.map(tour => (
-                    <Tour key={tour.id} tour={tour} removeTour={this.removeTour} />
+                    <Tour key={tour.id} 
+                    tour={tour} 
+                    removeTour={this.removeTour}
+                    openMe = {this.changeMe}
+                    />
                 ))}
 
 
@@ -71,4 +76,3 @@ export default class TourList extends Component {
     }
 
 }
-
