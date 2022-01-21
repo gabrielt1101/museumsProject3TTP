@@ -5,7 +5,7 @@ export const tourData = [
         img: "./img/nytransit_img.jpg",
         name: "Brooklyn, NY",
         info: 
-        "The New York City Transit Museum is the premier spot for train lovers and hobbyists. If you don't like trains, then this spot will change your mind!" 
+        "The New York Transit Museum is a museum that displays historical artifacts of the New York City Subway, bus, and commuter rail systems in the greater New York City metropolitan region. " 
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const tourData = [
         img: "./img/moma_img.jpg",
         name: "New York, NY",
         info: 
-        "One of the classic spots " 
+        "The Museum of Modern Art (MoMA) is an art museum located in Midtown Manhattan, New York City, on 53rd Street between Fifth and Sixth Avenues. It plays a major role in developing and collecting modern art, and is often identified as one of the largest and most influential museums of modern art in the world. " 
         
     },
     {
@@ -22,7 +22,7 @@ export const tourData = [
         img: "./img/intrepid_sea_air_space_img.jpg",
         name: "Manhattan, NY",
         info: 
-        "An American military and maritime history museum in New York City with a collection of museum ships. " 
+        "The Intrepid Sea, Air & Space Museum is an American military and maritime history museum in New York City with a collection of museum ships. It is located at Pier 86 at 46th Street, along the Hudson River, in the Hell's Kitchen neighborhood on the West Side of Manhattan" 
     },
     {
         id: 4,
@@ -30,7 +30,7 @@ export const tourData = [
         img: "./img/spyscape_img.jpg",
         name: "New York, NY",
         info: 
-        "Discover your inner spy at New York’s SPYSCAPE Spy Museum which features world-class galleries of spy gadgets and stories, plus fun immersive spy challenges." 
+        "Spyscape is a private, for-profit espionage museum and experience in Midtown Manhattan, New York City. It opened in February 2018 to a positive reception from local and international media. It features seven main experience zones, as well as a James Bond exhibition, 007xSpyscape." 
     },
     {
         id: 5,
@@ -46,6 +46,6 @@ export const tourData = [
         img: "./img/ice_cream_img.jpg",
         name: "New York, NY",
         info: 
-        "Enter a realm where anything is possible at the Museum of Ice Cream. Enjoy an immersive experience, delivering joy and entertainment for the whole family, rain or shine. Savor signature ice cream flavors and sweet treats as you explore the museum.." 
+        "Taste, play, dance, connect, imagine, slide and swim as you explore our world famous 13 multi-sensory installations over 3 floors and 20,000 square feet! Our unforgettable #TeamMOIC guides will entertain and delight as you journey through MOIC, serving up as many sweet treats as you want along the way in our special NYC experience!" 
     },
 ];
