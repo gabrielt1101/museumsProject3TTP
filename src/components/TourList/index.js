@@ -3,15 +3,16 @@ import Tour from "../Tour";
 import "./tourlist.scss";
 import { tourData } from "../../tourData";
 
+
  
 export default class TourList extends Component {
-
-
-
+    
     state = {
         tours: tourData,
-        display: false
+        display: false,
+        clsName: "popUp"
     };
+
 
     removeTour = id => {
         const { tours } = this. state;
@@ -21,11 +22,16 @@ export default class TourList extends Component {
         });
     };
 
-    close = () => {
-        this.setState({
-            display: !this.state.display
-        });
-    };
+
+    // VINCE WAS HERE
+
+
+    clickMe = () => {
+        this.setState({ clsName: "popUpClose" });
+    }
+
+    // VINCE IS NOT HERE
+
 
     render() {
         // console.log(this.state.tours);
@@ -37,13 +43,14 @@ export default class TourList extends Component {
             <section className="tourlist">
                
 
-                <div className="popUp">
-                    <span class="close" >&times;</span>
+                <div className={this.state.clsName} id = "pop">
+                    <span class="close" onClick={this.clickMe}>&times;</span>
                     <div className="gallery">
 
-                        <div className="popUp-content">
+                        <div className="popUp-content" >
 
-                            Hello
+                            Hello World
+
 
                         </div>
                     </div>
