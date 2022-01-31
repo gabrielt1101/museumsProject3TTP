@@ -21,13 +21,13 @@ const About = () => {
           <div className="style">
           <h1>About</h1>
           <br />
-          <h2>
+          <p>
             The Museum Association of New York is dedicated to providing you with
             a variety of museums that each fulfill different interests. <br />
             <br />
             Whether you’re interested in modern art, NYC transit, or even ice
             cream, the Museum Association of New York has got you covered.
-          </h2>
+          </p>
           <br />
           <h3>So what are you waiting for? Go to a museum today!</h3>
           </div>
