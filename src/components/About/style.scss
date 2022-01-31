@@ -52,7 +52,7 @@ video {
 }
 .style {
   position: absolute;
-  background-color: white;
+  background-color: #003566;
   top: 30%;
   left: 25%;
   width: 50%;
@@ -60,7 +60,7 @@ video {
 }
 
 h1 {
-  color: rgb(149, 116, 38);
+  color: #FFC300;
   font-size: 35px;
   font-family: 'Playfair Display', serif;
   text-align: center;
@@ -68,8 +68,10 @@ h1 {
   margin-bottom: 10px;
 }
 
-h2 {
+p {
+  font-weight: bold;
   font-size: 20px;
+  color: #FFC300;
   font-family: 'Playfair Display', serif;
   text-align: center;
   margin-top: 0;
@@ -77,7 +79,7 @@ h2 {
 }
 
 h3 {
-  color: rgb(25, 123, 156);
+  color: #FFC300;
   font-size: 35px;
   font-weight: 10000;
   font-family: 'Playfair Display', serif;

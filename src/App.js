@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route , Link} from "react-router-dom";
-import "./App.scss";
+import "./app.scss";
 
 import Navbar from "./components/Navbar/Navbar";
 import TourList from "./components/TourList/tours";
@@ -17,7 +17,7 @@ class App extends Component {
         
         <Routes>
           <Route>
-            <Route path="/Home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/tours" element ={<TourList />}/>
             <Route path="/about" element ={<About />}/>
             
