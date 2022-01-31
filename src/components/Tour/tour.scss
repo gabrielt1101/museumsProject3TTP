@@ -1,12 +1,17 @@
 @import "../../index.scss";
 
+.tpg{
+  background-color: #003566;
+
+}
 .tour {
     position: relative;
-    background: #d1d1e0;
+    background: #FFD60A;
     margin: 2rem 0;
     border: 3px solid black;
     font-weight: bold;
-    text-shadow: 4px 4px 5px red;
+    text-shadow: 2px 2px 2px #FFC300;
+    
     img {
         width: 100%;
         display: flex;
@@ -174,11 +179,12 @@
     h3 {
         text-transform: capitalize;
         margin: .2rem 0 0.6rem 0;
+        color: #000814;
     }
     h5 {
         text-transform: capitalize;
         span {
-            color: $mainBlack;
+            color: #000814;
             margin: .5rem;
             font-size: 1.2rem;
             cursor: pointer;

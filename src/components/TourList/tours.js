@@ -52,7 +52,7 @@ export default class TourList extends Component {
 
         return (
 
-            
+            <div className="tpg">
             <section className="tourlist">
 
                 <div className={this.state.clsName} >
@@ -117,6 +117,7 @@ export default class TourList extends Component {
 
 
             </section>
+            </div>
         );
     }
 
