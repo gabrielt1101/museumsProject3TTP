@@ -15,6 +15,9 @@
 # Museum Section #
 ![museums](https://user-images.githubusercontent.com/20888719/151864835-b749bcfb-c97f-4356-a5cc-ee01e672ddb2.PNG)
 
+## Museum Photo pop out carousel ##
+![mcpop](https://user-images.githubusercontent.com/20888719/151865900-51d38095-3721-4891-a202-d6ed67c8d174.PNG)
+
 # About Page #
 ![abtmuseums](https://user-images.githubusercontent.com/20888719/151864995-885f5e72-fc51-4168-bbe0-65a1b79e9c61.PNG)
 
