@@ -26,7 +26,7 @@ export default function Navbar() {
                 </li>
                 <li>
                     <Link to="/tours" className="nav-link active">
-                        tours
+                        museums
                     </Link>
                 </li>
             </ul>
