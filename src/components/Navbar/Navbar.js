@@ -15,7 +15,7 @@ export default function Navbar() {
             <img src={logooo} alt="city tours company" />
             <ul className="nav-links">
                 <li>
-                    <Link to="/home" className="nav-link">
+                    <Link to="/" className="nav-link">
                         home
                     </Link>    
                 </li>
