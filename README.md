@@ -4,9 +4,9 @@
   1. Users are welcomes to the site with a home page
   2. Fully functional Navagation bar
   3. Museum Tour Page
-    1. Users can see different museums
-    2. Subway stations to these museums are present on each card
-    3. When museum photo is clicked a pop up carousel of the inside of each museum shows
+      1. Users can see different museums
+      2. Subway stations to these museums are present on each card
+      3. When museum photo is clicked a pop up carousel of the inside of each museum shows
   4. About Page, brief desciption of the museum culture of NYC with video background of one of the museums
 
 # Home Page  #
